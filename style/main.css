@@ -1,0 +1,60 @@
+:root {
+    --red: #E50914;
+    --black: #141414;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body {
+    background-color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    
+}
+
+header .container h2 {
+    color: var(--red);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-left: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30px;
+}
+
+header nav a:hover {
+    color: #ffffff;
+}
+
+/* Filme principal */
+
+.mainBanner {
+    font-size: 16px;
+    background-image: url(/img/serieBanner.jpg);
+    height: 400px;
+    background-size: cover;
+}
+
+.tittle {
+
+}
+
+.description {
+
+}
