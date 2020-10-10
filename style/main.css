@@ -46,15 +46,45 @@ header nav a:hover {
 
 .mainBanner {
     font-size: 16px;
-    background-image: url(/img/serieBanner.jpg);
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(/img/serieBanner.jpg);
     height: 400px;
     background-size: cover;
-}
 
-.tittle {
-
+    /* Alinhando texto dentro do container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
 }
 
 .description {
+    margin-top: 10px;
+    margin-bottom: 40px;
 
+}
+
+.tittle {
+    margin-top: 2%;
+    font-size: 50px;
+    font-family: 'Jockey One', sans-serif;
+}
+
+.button {
+    background-color: rgba(0,0,0,.50);
+    color: white;
+    font-size: 16px;
+    padding: 15px 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 400ms; 
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.button i{
+    margin-right: 8px;
+    
 }
