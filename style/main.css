@@ -60,6 +60,7 @@ header nav a:hover {
 .description {
     margin-top: 10px;
     margin-bottom: 40px;
+    width: 55%;
 
 }
 
@@ -84,7 +85,30 @@ header nav a:hover {
     color: black;
 }
 
-.button i{
+.button i {
     margin-right: 8px;
     
+}
+
+.container {
+    margin-left: 30px;
+}
+
+.buttons {
+    margin-left: 30px;
+}
+
+.mainBanner .container {
+    width: 80%;
+}
+
+/* Carousel */
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrousel-series {
+    margin-top: 10px;
 }
